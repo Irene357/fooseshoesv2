@@ -1,0 +1,504 @@
+@font-face {
+    font-family: 'STHeitiSC medium';
+    src: url('../fonts/STHeitiSC_Medium/STHeitiTC-Medium.eot');
+    src: url('../fonts/STHeitiSC_Medium/STHeitiTC-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/STHeitiSC_Medium/STHeitiTC-Medium.woff2') format('woff2'),
+        url('../fonts/STHeitiSC_Medium/STHeitiTC-Medium.woff') format('woff'),
+        url('../fonts/STHeitiSC_Medium/STHeitiTC-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+ /*   font-display: swap; */
+}
+@font-face {
+    font-family: 'allerregular';
+    src: url('../fonts/aller_rg/aller_rg-webfont.eot');
+    src: url('../fonts/aller_rg/aller_rg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/aller_rg/aller_rg-webfont.woff2') format('woff2'),
+         url('../fonts/aller_rg/aller_rg.ttf') format('truetype'),
+         url('../fonts/aller_rg/aller_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'allerbold';
+    src: url('../fonts/aller_bd/aller_bd-webfont.eot');
+    src: url('../fonts/aller_bd/aller_bd-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/aller_bd/aller_bd-webfont.woff2') format('woff2'),
+         url('../fonts/aller_bd/aller_bd.ttf') format('truetype'),
+         url('../fonts/aller_bd/aller_bd-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'aller_lightregular';
+    src: url('../fonts/aller_lt/aller_lt-webfont.eot');
+    src: url('../fonts/aller_lt/aller_lt-webfont.eot?#iefix') format('embedded-opentype'),
+    	 url('../fonts/aller_lt/aller_lt.ttf') format('truetype'),
+         url('../fonts/aller_lt/aller_lt-webfont.woff2') format('woff2'),
+         url('../fonts/aller_lt/aller_lt-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'alleritalic';
+    src: url('../fonts/aller_ital/aller_it-webfont.eot');
+    src: url('../fonts/aller_ital/aller_it-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/aller_ital/aller_it-webfont.woff2') format('woff2'),
+         url('../fonts/aller_ital/aller_it-webfont.woff') format('woff'),
+         url('../fonts/aller_ital/aller_it-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+		/*FONTS*/
+h1 a, .widget_inner h4 {
+	text-transform: uppercase;
+}
+header form a, .footer_links a, .copyright, .additional_content p, #main_menu a, .shoes_name, .widget_inner h4 {
+	font-family: 'allerregular';
+}
+.selective a, .btn_style, .additional_content h3, h4, .new_arrivals li:before, .new_arrivals li:after, .blog_news .date {
+	font-family: 'allerbold';
+}
+.additional_content span, input[type="email"], .widget_inner p {
+	font-family: 'alleritalic';
+}
+.specials a, main h2 {
+	font-size: 25px;
+	font-family: 'aller_lightregular';
+}
+header form a {
+	font-size: 11px;
+}
+.footer_links a, .copyright, .additional_content p, .selective a, .additional_content span, input[type="email"],
+	.widget_inner p {
+	font-size: 12px;	
+}
+.new_arrivals li:before, .new_arrivals li:after, .blog_news .date {
+	font-size: 13px;
+}
+.btn_style, .additional_content h3, h4, .widget_inner h4 {
+	font-size: 14px;
+}
+#main_menu a {
+	font-size: 16px;
+}
+.shoes_name {
+	font-size: 18px;
+}
+header form a {
+	color: #7e7e7e;
+}
+		/*/FONTS*/
+body {
+	background: #ebe7df;
+}
+		/*HEADER*/
+header, .specials, .contacts, .widgets {
+	background: #242424;
+}
+h1 a {
+	/*font-family: 'STHeitiSC medium'; */
+	font-size: 26px;
+	color: #57c5a0;
+	font-weight: 400;
+	padding: 10px 0;
+}
+h1 a:hover {
+	text-decoration: none;
+	color: #57c5a0;
+}
+.search {
+	background: url('../images/search.svg') no-repeat center;
+	padding: 12px 8px;
+}
+.search:focus {
+	box-shadow: none;
+}
+header form a {
+	padding: 17px 10px;
+	position: relative;
+}
+header form a:hover {
+	text-decoration: none;
+	color: #7e7e7e;
+}
+header form a:before {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 100%;
+	width: 1px;
+	background: #383838;
+}
+header form a:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 1px;
+	background: #383838;
+}
+		/*/HEADER*/
+		/*MENU*/
+.navigation {
+	background: #fff;
+}
+#main_menu a {
+	color: #000;
+	padding: 4% 6%;
+	border-right: 1px solid #eeeeee;
+}
+#main_menu a:first-child, #main_menu a:nth-child(4) {
+	border-left: 1px solid #eeeeee;
+}
+.navbar span {
+	background: linear-gradient(white 20%, black 20% 22%, white 22% 50%, black 51% 53%, white 53% 85%, black 85% 87%, white 87%);
+}
+.border_btn {
+	border: 1px solid #000;
+}
+.border_btn:focus {
+	outline: none;
+}
+.selective {
+	font-size: 0;
+}
+.selective a {
+	padding: 17px 30px 17px 50px;
+	color: #fff;
+	border-left: 1px solid #cccccc;
+	display: inline-block;
+	position: relative;
+	background: url('../images/grey.png') no-repeat 64%;
+}
+.selective a+a {
+	background: url('../images/green.png') no-repeat 64%;
+	border-right: 1px solid #cccccc;
+}
+.selective a:before {
+	content: '';
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	top: 18px;
+	left: 18px;
+	background: url('../images/star.svg');
+}
+.selective a+a:before {
+	background: url('../images/cart.svg');
+	height: 13px;
+	top: 20px;
+}
+		/*/MENU*/
+		/*SPECIALS*/
+.specials .nav-item {
+	position: relative;
+	padding-top: 30px;
+}
+.specials .nav {
+	padding-bottom: 30px;
+}
+.specials a {
+	position: absolute;
+	top: 95px;
+	left: 85px;
+	text-transform: uppercase;
+	background: rgba(56, 55, 54, .9);
+	color: #fff;
+}
+.specials .nav-item+.nav-item a {
+	left: 45px;
+}
+.specials .nav-item+.nav-item+.nav-item a {
+	left: 70px;
+}
+		/*/SPECIALS*/
+		/*NEW ARRIVALS*/
+.btn_style {
+	border: 1px solid #bcb5a7;
+	color: #bcb5a7;
+	border-radius: 0;
+	padding: 2px 20px;
+}
+.title {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.title h2 {
+	margin-top: .5rem;
+}
+.shoes_name {
+	text-align: center;
+	background: #fff;
+	border-top: 1px solid #cccccc;
+	padding: 10px 0;
+}
+.new_arrivals {
+	height: 283px;
+	overflow: hidden;
+}
+.new_arrivals a {
+	padding: 0 0;
+}
+.shoes_actions {
+	text-align: right;
+	background: #fff;
+	border-top: 1px solid #cccccc;
+}
+.shoes_actions a {
+	padding: 11.5px 15px;
+	display: inline-block;
+}
+.cls-1 {
+    fill: #6e6e6e;
+    fill-rule: evenodd;
+  }
+.shoes_actions a:hover .cls-1 {
+ 	fill: #57c5a0;
+}
+.shoes_actions {
+	display: none;
+}
+.new_arrivals li:hover .shoes_name {
+	display: none;
+}
+.new_arrivals li:hover .shoes_actions {
+	display: block;
+}
+.new_arrivals li {
+	position: relative;
+}
+.new_arrivals li:before {
+	content: "$145,99";
+	position: absolute;
+	bottom: 16px;
+	left: 10px;
+	background: #57c5a0;
+	color: #fff;
+	padding: 25px 10px;
+}
+.new_arrivals li:nth-child(2):after {
+	content: "ON SALE!";
+	position: absolute;
+	top: 0;
+	right: 10px;
+	background: #000;
+	color: #fff;
+	padding: 25px 10px;
+}
+		/*/NEW ARRIVALS*/
+		/*BEST SELLERS*/
+.best_sellers li:nth-child(2):after {
+	display: none;
+}
+.best_sellers li:nth-child(3):after {
+	content: "OUT OF STOCK";
+	position: absolute;
+	top: 0;
+	right: 10px;
+	width: 70.55px;
+	background: #f27e4b;
+	color: #fff;
+	padding: 15px 10px;
+	text-align: center;
+}
+.best_sellers {
+	padding-bottom: 30px;
+	border-bottom: 1px solid #bcb5a7;
+}
+		/*/BEST SELLERS*/
+		/*ADDITIONAL*/
+.additional_content {
+	margin-bottom: 25px;
+}
+.additional_content h3 {
+	text-transform: uppercase;
+	color: #000;
+}
+.additional_content>div {
+	background: #dfdbd4;
+	padding-top: 20px;
+	margin-top: 25px;
+}
+.additional_content>div>p {
+	padding-top: 15px;
+	margin-bottom: 2px;
+}
+.additional_content>div>p+p {
+	padding-top: 0;
+}
+.date {
+	color: #fff;
+	text-transform: uppercase;
+	background: #57c5a0;
+	text-align: center;
+	padding: 10px;
+	width: 60px;
+}
+.blog_news {
+	padding-top: 15px;
+	padding-left: 20px;
+}
+.blog_news:last-child {
+	padding-bottom: 15px;
+	padding-top: 0;
+}
+		/*/ADDITIONAL*/
+		/*WIDGETS*/
+.widget_inner h4 {
+	color: #7d7d7d;
+}
+.widget_inner p {
+	color: #a4a4a4;
+}
+.widget_inner span {
+	color: #57c5a0;
+}
+.widget_inner {
+	padding-top: 20px;
+}
+.widgets>div {
+	padding-bottom: 30px;
+	border-bottom: 1px solid #1c1c1c;
+}
+.twit p {
+	margin-bottom: 0;
+}
+.term {
+	padding-bottom: 15px;
+}
+
+		/*/WIDGETS*/
+		/*CONTACTS*/
+.soc_media a {
+	display: inline-block;
+	margin-right: 8px;
+	padding: 18px;
+	background: url('../images/fb.png');
+}
+.soc_media a+a {
+	background: url('../images/twitter.png');
+}
+.soc_media a+a+a {
+	background: url('../images/g.png');
+}
+.soc_media a+a+a+a {
+	background: url('../images/linkedin.png');
+}
+.soc_media a+a+a+a+a {
+	background: url('../images/flickr.png');
+	margin-right: 0;
+}
+.contact_wrapper {
+	padding-bottom: 20px;
+	font-size: 0;
+}
+.contact_wrapper>* {
+	margin-top: 20px;
+}
+.contact_wrapper form {
+	position: relative;
+}
+input[type="email"] {
+	background: #2e2e2e;
+	border: none;
+	width: 215px;
+	height: 36px;
+	padding-left: 15px;
+}
+.contact_wrapper input[type="submit"] {
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 36px;
+	width: 36px;
+	border: none;
+	background: url('../images/right.png');
+}
+input[type="email"]:focus, .contact_wrapper input[type="submit"]:focus {
+	outline: none;
+}
+
+		/*/CONTACTS*/
+		/*FOOTER*/
+footer {
+	background: #2e2e2e;
+}
+.footer_links a, footer p, .copyright {
+	color: #aaaaaa;
+}
+footer p {
+	text-align: center;
+	margin-bottom: 0;
+}
+footer p a {
+	display: inline-block;
+	padding: 15px 0;
+}
+.footer_wrap {
+	padding-bottom: 20px;
+}
+		/*/FOOTER*/
+		/*Media*/
+@media (min-width: 409px) {
+	.title {
+		justify-content: space-between!important;
+	}
+}
+@media (min-width: 576px) {
+	.title {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+}
+@media (min-width: 768px) {
+	#main_menu {
+		margin-left: 100px;
+	}
+	#main_menu a:nth-child(4) {
+		border-left: none;
+	}
+	.specials .nav-item:nth-child(2) {
+		margin-left: 20px;
+	}
+	.copyright {
+		margin-top: 5px;
+	}
+	.copyright p {
+		text-align: start;
+	}
+	.additional_content>div {
+		margin-left: 28px;
+	}
+	.additional_content>div:first-child {
+		margin-left: 0;
+	}
+	.contact_wrapper {
+		padding-bottom: 38px;
+	}
+	.contact_wrapper>* {
+		margin-top: 38px;
+	}
+	.footer_wrap {
+		padding-top: 20px;
+	}
+
+@media (min-width: 992px) {
+	.specials .nav-item:nth-child(2) {
+		margin-left: 0;
+	}
+	.best_sellers {
+		height: auto;
+	}
+	.additional_content>div {
+		margin-left: 38px;
+	}
+}
+@media (min-width: 1200px) {
+	.additional_content>div {
+		margin-left: 45px;
+	}
+}

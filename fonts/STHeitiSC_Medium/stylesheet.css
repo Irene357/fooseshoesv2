@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'STHeiti TC';
+    src: url('STHeitiTC-Medium.eot');
+    src: url('STHeitiTC-Medium.eot?#iefix') format('embedded-opentype'),
+        url('STHeitiTC-Medium.woff2') format('woff2'),
+        url('STHeitiTC-Medium.woff') format('woff'),
+        url('STHeitiTC-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
